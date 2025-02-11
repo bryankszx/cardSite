@@ -11,20 +11,20 @@ body {
 
 .container {
     display: flex;
-    gap: 30px; /* Aumenta o espaçamento entre os cards */
+    gap: 30px; 
     justify-content: center;
 }
 
 .card {
-    background: rgb(196, 35, 35); /* Fundo vermelho do card */
+    background: rgb(196, 35, 35); 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    color: white; /* Texto branco */
+    color: white; 
     transition: transform 0.3s ease-in-out;
-    width: 250px; /* Largura maior para um formato retangular */
-    height: 350px; /* Altura ajustada */
+    width: 250px; 
+    height: 350px; 
 }
 
 .card img {
@@ -41,5 +41,5 @@ body {
 }
 
 .card:hover {
-    transform: scale(1.1); /* Aumenta o card em 10% ao passar o mouse */
+    transform: scale(1.1);
 }
